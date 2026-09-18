@@ -303,8 +303,19 @@ img {
 }
 
 figure img {
-  max-width: 100%;
-  height: auto;
+   max-width: 100%;
+   height: auto;
+}
+
+.boritokep {
+    display: block;
+    width: 100vw;
+    max-width: none;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0;
 }
 
 .etetes-img {
@@ -330,22 +341,16 @@ b {
   margin: 40px auto;
 }
 
-.faq-container h2 {
-  text-align: center;
-  margin-bottom: 24px;
-}
-
 .faq-item {
-  background-color: #bbbbbb;
-  border: 1px solid #bbbbbb;
-  border-radius: 6px;
+  background-color: #bbb;
+  border-radius: 10px;
   margin-bottom: 12px;
   padding: 15px;
   transition: all 0.3s ease;
 }
 
-
 .faq-question {
+  font-size: 1.3rem;
   font-weight: bold;
   color: #333;
   cursor: pointer;
@@ -353,11 +358,9 @@ b {
   list-style: none; 
 }
 
-
 .faq-question::before {
   content: "▶ ";
   color: #3d5244;
-  font-size: 0.8em;
   margin-right: 8px;
   transition: transform 0.2s ease;
   display: inline-block;
@@ -371,6 +374,7 @@ b {
 .faq-answer {
   margin-top: 10px;
   color: #353535;
+  font-size: 1.3rem;
 }
 
 
