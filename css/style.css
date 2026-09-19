@@ -116,6 +116,10 @@ body {
         display: flex;
     }
 
+    .submenu {
+      display: none;
+    }
+
 }
 
 @media (max-width: 768px) {
