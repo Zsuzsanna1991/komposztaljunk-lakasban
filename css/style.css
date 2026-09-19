@@ -185,7 +185,6 @@ a:hover {
   }
 } 
 
-
 .first {
   display: flex;
   flex-direction: column;
@@ -280,7 +279,7 @@ a:hover {
 .card {
     display: inline-block;
     width: 200px;
-    min-width: 200px;
+    min-width: 300px;
     height: auto;
     border-radius: 10px;
     text-align: center;
@@ -288,9 +287,13 @@ a:hover {
 }
 
 .card-img {
-    width: 200px;
+    width: 300px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+.card p {
+  padding: 6px;
 }
 
 img {
@@ -307,7 +310,7 @@ figure img {
    height: auto;
 }
 
-.boritokep {
+/*.boritokep {
     display: block;
     width: 100vw;
     max-width: none;
@@ -316,7 +319,7 @@ figure img {
     margin-left: 50%;
     transform: translateX(-50%);
     border-radius: 0;
-}
+}*/
 
 .etetes-img {
     display: inline;
