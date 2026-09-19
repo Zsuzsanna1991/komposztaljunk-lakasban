@@ -10,6 +10,7 @@
 </head>
 <body>
     <header>
+        <button class="menu-toggle">☰</button>
         <nav class="main-nav">
             <a href="index.html">Főoldal</a>
             <a href="gilisztakomposztalas.html">Gilisztakomposztálás</a>
@@ -126,5 +127,15 @@
             <p>&copy; 2026 Komposztáljunk Lakásban. Minden jog fenntartva.</p>
         </div>
     </footer>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const mainNav = document.querySelector('.main-nav');
+
+        menuToggle.addEventListener('click', function() {
+            mainNav.classList.toggle('open');
+        });
+    </script>
+
 </body>
 </html>
