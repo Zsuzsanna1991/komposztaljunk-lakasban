@@ -132,7 +132,7 @@ a {
 }
 
 a:hover {
-    color: #3d5244;
+    color: rgba(255, 255, 0, 0.671);
 }
 
 .btn {
@@ -167,7 +167,7 @@ a:hover {
 
 @media (min-width: 768px) {
   .block {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -181,7 +181,7 @@ a:hover {
 
 @media (min-width: 768px) {
   .bgblock {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 } 
 
@@ -224,7 +224,7 @@ a:hover {
 }
 
 .box p {
-    font-size: 1.1rem; 
+    font-size: 1.2rem; 
 }
 
   .box:nth-child(even) {
