@@ -98,8 +98,14 @@ body {
     .menu-toggle {
         display: block;
         margin: 10px auto;
+        padding: 8px 15px;
         font-size: 40px;
+        color: #bbb;
+        background-color: #3d5244;
+        border: none;
         border-radius: 10px;
+        cursor: pointer;
+        box-shadow: 1px 1px 10px #333;
     }
 
     .main-nav {
@@ -150,7 +156,7 @@ h1 {
 
 @media (max-width: 768px) {
   h1 {
-    margin-top: 160px;
+    margin-top: 120px;
     font-size: 2.0rem;
   }
 }
@@ -352,7 +358,7 @@ a:hover {
 
 img {
     display: block;
-    width: 600px;
+    max-width: 100%;
     height: auto;
     border-radius: 10px;
     margin-left: auto;
@@ -364,21 +370,9 @@ figure img {
    height: auto;
 }
 
-/*.boritokep {
-    display: block;
-    width: 100vw;
-    max-width: none;
-    height: auto;
-    margin-top: 25px;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    border-radius: 0;
-}*/
-
 .etetes-img {
     display: inline;
     width: 400px;
-    height: auto;
 }
 
 figcaption {
