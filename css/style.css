@@ -5,7 +5,7 @@ body {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     text-align: justify;
     line-height: 2;
 }
@@ -155,17 +155,17 @@ h1 {
     text-transform: uppercase; 
 }
 
-@media (min-width: 768px) {
-  h1 {
-    margin-top: 100px;
-    font-size: 2.2rem;
-  }
-}
-
 @media (max-width: 768px) {
   h1 {
     margin-top: 120px;
     font-size: 2.0rem;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    margin-top: 100px;
+    font-size: 2.2rem;
   }
 }
 
@@ -225,8 +225,7 @@ a:hover {
 
 .block {
   width: 80%;
-  margin: auto;
-  margin-top: 40px;
+  margin: 60px auto;
   padding: 40px;
   text-align: center;
   border-radius: 10px;
@@ -374,6 +373,8 @@ img {
 }
 
 figure img {
+  margin-top: 100px;
+  width: 800px;
    max-width: 100%;
    height: auto;
 }
@@ -440,9 +441,10 @@ b {
 /*Becsületkassza Ko-fi*/
 
 .kofi-honesty-box {
+  width: 80%;
   max-width: 700px;
   margin: 60px auto;
-  padding: 35px 30px;
+  padding: 40px;
   background-color: #3d5244;
   border-radius: 10px;
   border: 1px solid rgb(187, 187, 187, 0.2);
@@ -450,6 +452,7 @@ b {
   color: #bbbbbb;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
+
 
 .kofi-honesty-box h3 {
   color: #bbbbbb;
@@ -568,5 +571,5 @@ b {
   padding-top: 20px;
   border-top: 1px solid #3d5244;
   font-size: 0.85rem;
-  color: #8fa89b;
+  color: #a3c3b0;
 }
