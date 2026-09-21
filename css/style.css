@@ -12,8 +12,6 @@ body {
 
 
 
-/*Navigációs menü*/
-
 .main-nav {
     display: flex;
     gap: 20px;
@@ -350,6 +348,17 @@ a:hover {
     padding: 40px;
 }
 
+.list li {
+  text-align: left;
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .list li {
+    margin-right: 20px;
+  }
+}
+
 .container-card {
     display: flex;
     justify-content: center; 
@@ -385,6 +394,12 @@ img {
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .boritokep{
+    display: none;
+  }
 }
 
 figure img {
