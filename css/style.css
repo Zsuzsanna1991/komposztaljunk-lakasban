@@ -263,6 +263,7 @@ h4 {
 
 a {
     color:#a3c3b0;
+    -webkit-tap-highlight-color: transparent;
 }
 
 a:hover {
