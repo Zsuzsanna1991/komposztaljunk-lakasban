@@ -263,11 +263,14 @@ h4 {
 
 a {
     color:#a3c3b0;
-    -webkit-tap-highlight-color: transparent;
 }
 
 a:hover {
     color: rgba(255, 255, 0, 0.671);
+}
+
+*, ::before, ::after {
+    -webkit-tap-highlight-color: transparent;
 }
 
 .btn {
