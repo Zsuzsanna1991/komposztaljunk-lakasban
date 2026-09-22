@@ -269,8 +269,8 @@ a:hover {
     color: rgba(255, 255, 0, 0.671);
 }
 
-*, ::before, ::after {
-    -webkit-tap-highlight-color: transparent;
+* {
+    -webkit-tap-highlight-color: transparent !important;
 }
 
 .btn {
