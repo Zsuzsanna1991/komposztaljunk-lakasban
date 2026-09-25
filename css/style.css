@@ -1,7 +1,6 @@
 body {
   padding-top: 60px;
     background-color: #333;
-    color: #bbb;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -29,7 +28,7 @@ body {
 
 .main-nav > a, 
 .submenu-trigger {
-    color: #bbb;
+    color: #FAF9F6;
     text-decoration: none;
     padding: 20px;
     text-transform: uppercase;
@@ -44,7 +43,7 @@ body {
 .submenu {
     display: none; 
     position: absolute;
-    background-color: #f0f0f0;
+    background-color: #D4D4D8;
     box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
     border-radius: 10px;
     padding: 10px;
@@ -66,7 +65,7 @@ body {
 
 .submenu a:hover {
     background-color: #3d5244;
-    color: #bbb;
+    color: #FAF9F6;
     text-decoration: none;
 }
 
@@ -157,7 +156,7 @@ body {
     display: inline-block;
     padding: 12px 25px;
     background-color: #3d5244;
-    color: #bbb;
+    color:#D4D4D8;
     text-decoration: none;
     border-radius: 10px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
@@ -165,7 +164,7 @@ body {
 
 .hero-gomb:hover {
     background-color: #273127;
-    color: #bbb;
+    color: #D4D4D8;
 }
 
 @media (max-width: 768px) {
@@ -211,6 +210,7 @@ h1 {
     margin-bottom: 50px;
     text-align: center;
     text-transform: uppercase; 
+    color: #D4D4D8;
 }
 
 @media (max-width: 768px) {
@@ -235,6 +235,7 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     font-size: 1.6rem;
+    color: #D4D4D8;
 }
 
 @media (max-width: 768px) {
@@ -255,10 +256,16 @@ h3 {
     margin-top: 20px;
     text-align: center;
     font-size: 1.1rem;
+    color: #D4D4D8;
 }
 
 h4 {
     margin-top: 20px;
+    color: #D4D4D8;
+}
+
+p {
+  color: #bbb;
 }
 
 a {
@@ -500,7 +507,7 @@ b {
 }
 
 .faq-item {
-  background-color: #bbb;
+ background-color: #D4D4D8;
   border-radius: 10px;
   margin-bottom: 12px;
   padding: 15px;
@@ -531,8 +538,11 @@ b {
 
 .faq-answer {
   margin-top: 10px;
-  color: #353535;
   font-size: 1.3rem;
+}
+
+.faq-answer p {
+  color: #353535 !important;
 }
 
 
