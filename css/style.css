@@ -681,3 +681,71 @@ b {
   font-size: 0.85rem;
   color: #a3c3b0;
 }
+
+
+
+
+
+
+
+.print-btn {
+  background-color: #273127; 
+  color: white; 
+  padding: 20px; 
+  font-family: Montserrat; 
+  border-radius: 10px; 
+  border: 1px solid #bbb; 
+  text-transform: uppercase; 
+  font-size: 1.1rem;
+  margin-left: auto;
+}
+
+.print-btn:hover {
+  background-color: #3d5244;
+}
+
+
+@media (max-width: 1025px) {
+   .print-btn {
+    display: none;
+   }
+}
+
+
+@media print {
+  body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  h1 {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  body, h1, h2, h3, h4, h5, h6, p, span, div, li, td, th {
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000 !important;
+    opacity: 1 !important;
+  }
+
+  .block, .bgblock {
+    width: 100%;
+    border: none;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  img, .box-img {
+    max-width: 200px;
+    height: auto;
+  }
+
+  .menu-toggle, .main-nav, footer, .card, .kofi-honesty-box, .btn {
+    display: none;
+  }
+
+    @page {
+    margin: 2cm;
+  }
+}
