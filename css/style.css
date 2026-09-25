@@ -24,6 +24,8 @@ body {
     z-index: 1000;
     box-shadow: 1px 1px 10px #333;
     box-sizing: border-box;
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
 }
 
 .main-nav > a, 
@@ -304,7 +306,6 @@ a:hover {
   background-color: #3d5244;
   color: #bbb;
   transform:translateY(-4px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
 }
 
 .block {
@@ -689,7 +690,7 @@ b {
 
 
 .print-btn {
-  background-color: #273127; 
+  background-color: #3d5244;
   color: white; 
   padding: 20px; 
   font-family: Montserrat; 
@@ -697,11 +698,14 @@ b {
   border: 1px solid #bbb; 
   text-transform: uppercase; 
   font-size: 1.1rem;
+  letter-spacing: 1.5px;
   margin-left: auto;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
 }
 
 .print-btn:hover {
-  background-color: #3d5244;
+  background-color: #273127; 
+  transform:translateY(-4px);
 }
 
 
