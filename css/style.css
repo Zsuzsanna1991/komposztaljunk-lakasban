@@ -266,7 +266,7 @@ h4 {
     color: #D4D4D8;
 }
 
-p {
+p, figcaption {
   color: #bbb;
 }
 
