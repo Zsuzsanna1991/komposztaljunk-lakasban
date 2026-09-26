@@ -59,6 +59,7 @@ body {
     padding: 8px 12px;
     text-decoration: none;
     border-bottom: 1px solid rgba(43, 58, 48, 0.15); 
+    text-align: left;
 }
 
 .submenu a:last-child {
@@ -605,6 +606,13 @@ b {
   transform:translateY(-4px);
 }
 
+@media (max-width:768px) {
+    .kofi-btn {
+      padding: 15px;
+      font-size: 1.0rem;
+  }
+}
+
 
 
 
@@ -632,22 +640,23 @@ b {
   min-width: 250px;
 }
 
-.footer-section h3 {
-  text-align: center;
-  color: #a3c3b0;
-  margin-bottom: 15px;
-  font-size: 1.2rem;
-}
-
-.footer-section p {
+.footer-info {
   line-height: 1.6;
   font-size: 0.95rem;
   color: #bbb;
   text-align: center;
 }
 
+.footer-header {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: #a3c3b0;
+  font-weight: bold;
+}
+
 .footer-section ul {
-    text-align: center;
+  text-align: center;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -664,14 +673,11 @@ b {
 }
 
 .footer-section ul li a:hover {
-  color: #bbb;
   text-decoration: underline;
 }
 
-.footer-section .email {
-  margin-top: 10px;
-  font-weight: bold;
-  color: #bbb;
+.social-link {
+  text-align: center;
 }
 
 .footer-bottom {
