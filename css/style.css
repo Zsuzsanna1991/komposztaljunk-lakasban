@@ -544,7 +544,11 @@ b {
 }
 
 .faq-answer p {
-  color: #353535 !important;
+  color: #333 !important;
+}
+
+.faq-answer li {
+  color: #333 !important;
 }
 
 
