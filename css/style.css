@@ -30,7 +30,7 @@ body {
 
 .main-nav > a, 
 .submenu-trigger {
-    color: #FAF9F6;
+    color: #eee;
     text-decoration: none;
     padding: 20px;
     text-transform: uppercase;
@@ -45,7 +45,7 @@ body {
 .submenu {
     display: none; 
     position: absolute;
-    background-color: #D4D4D8;
+    background-color: #eee;
     box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
     border-radius: 10px;
     padding: 10px;
@@ -68,7 +68,7 @@ body {
 
 .submenu a:hover {
     background-color: #3d5244;
-    color: #FAF9F6;
+    color: #eee;
     text-decoration: none;
 }
 
@@ -92,7 +92,7 @@ body {
         margin: 10px auto;
         padding: 8px 15px;
         font-size: 40px;
-        color: #bbb;
+        color: #eee;
         background-color: #3d5244;
         border: none;
         border-radius: 10px;
@@ -159,7 +159,7 @@ body {
     display: inline-block;
     padding: 12px 25px;
     background-color: #3d5244;
-    color:#D4D4D8;
+    color:#eee;
     text-decoration: none;
     border-radius: 10px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
@@ -167,7 +167,7 @@ body {
 
 .hero-gomb:hover {
     background-color: #273127;
-    color: #D4D4D8;
+    color: #eee;
 }
 
 @media (max-width: 768px) {
@@ -213,7 +213,7 @@ h1 {
     margin-bottom: 50px;
     text-align: center;
     text-transform: uppercase; 
-    color: #D4D4D8;
+    color: #eee;
 }
 
 @media (max-width: 768px) {
@@ -238,7 +238,7 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     font-size: 1.6rem;
-    color: #D4D4D8;
+    color: #eee;
 }
 
 @media (max-width: 768px) {
@@ -259,20 +259,20 @@ h3 {
     margin-top: 20px;
     text-align: center;
     font-size: 1.1rem;
-    color: #D4D4D8;
+    color: #eee;
 }
 
 h4 {
     margin-top: 20px;
-    color: #D4D4D8;
+    color: #eee;
 }
 
 p, figcaption {
-  color: #bbb;
+  color: #eee;
 }
 
 a {
-    color:#a3c3b0;
+    color:#b8f9ea;
 }
 
 a:hover {
@@ -288,7 +288,7 @@ a:hover {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 1px solid rgb(61, 82, 68);
-    color: #bbb;
+    color: #eee;
     padding: 20px;
     border-radius: 10px;
     text-decoration: none;
@@ -305,7 +305,7 @@ a:hover {
 
 .btn:hover {
   background-color: #3d5244;
-  color: #bbb;
+  color: #eee;
   transform:translateY(-4px);
 }
 
@@ -328,7 +328,7 @@ a:hover {
   margin-top: 100px;
   padding: 40px 0;
   background-color: #3d5244;
-  color: #bbb;
+  color: #eee;
   width: 100%;
 }
 
@@ -417,7 +417,7 @@ a:hover {
 #fourth-block {
     margin-top: 100px;
     background-color: #3d5244;
-    color: #bbb;
+    color: #eee;
     padding: 40px;
 }
 
@@ -497,7 +497,7 @@ figcaption {
 }
 
 b {
-  color: #a3c3b0;
+  color: #eee;
 }
 
 
@@ -509,7 +509,7 @@ b {
 }
 
 .faq-item {
- background-color: #D4D4D8;
+ background-color: #eee;
   border-radius: 10px;
   margin-bottom: 12px;
   padding: 15px;
@@ -563,13 +563,13 @@ b {
   border-radius: 10px;
   border: 1px solid rgb(187, 187, 187, 0.2);
   text-align: center;
-  color: #bbbbbb;
+  color: #eee;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
 
 .kofi-honesty-box h3 {
-  color: #bbbbbb;
+  color: #eee;
   margin-top: 0;
   margin-bottom: 15px;
   font-size: 1.8rem;
@@ -589,13 +589,13 @@ b {
 
 .kofi-btn {
   display: inline-block;
-  color: #bbb;
+  color: #eee;
   padding: 20px;
   font-weight: bold;
   font-size: 1.1rem;
   text-decoration: none;
   border-radius: 10px;
-  border: 1px solid #bbb;
+  border: 1px solid #eee;
   transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   margin-top: 20px;
@@ -604,8 +604,8 @@ b {
 
 .kofi-btn:hover {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
-  background-color: #bbb;
-  border: 1px solid #bbb;
+  background-color: #eee;
+  border: 1px solid #eee;
   color: #3d5244;
   transform:translateY(-4px);
 }
@@ -626,7 +626,7 @@ b {
 
 .site-footer {
   background-color: #273127;
-  color: #bbb;
+  color: #eee;
   padding: 40px 20px 20px 20px;
   margin-top: 60px;
 }
@@ -647,7 +647,7 @@ b {
 .footer-info {
   line-height: 1.6;
   font-size: 0.95rem;
-  color: #bbb;
+  color: #eee;
   text-align: center;
 }
 
@@ -671,7 +671,7 @@ b {
 }
 
 .footer-section ul li a {
-  color: #bbb;
+  color: #eee;
   text-decoration: none;
   transition: color 0.2s ease;
 }
@@ -705,7 +705,7 @@ b {
   padding: 20px; 
   font-family: Montserrat; 
   border-radius: 10px; 
-  border: 1px solid #bbb; 
+  border: 1px solid #eee; 
   text-transform: uppercase; 
   font-size: 1.1rem;
   letter-spacing: 1.5px;
